@@ -219,18 +219,18 @@ label{
     text-align: center;
     background-color: #FFFFFF;
 }
-section h1{
+.section-title{
     font-size:100px ;
     font-weight:900 ;
     color: rgba(78, 71, 255, 1);
 }
-section p{
+.text-primery{
     color: rgba(137, 135, 161, 1);
 }
-section ul li{
+.select-logo ul li{
     list-style: none;
 }
-section ul{
+.select-logo ul{
     display: flex;
     padding:0 600px;
     justify-content: space-around;
