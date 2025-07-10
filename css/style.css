@@ -132,6 +132,35 @@ nav{
 }
 .user-info img{
      width: 40px;
-  height: 40px;
-  border-radius: 50%;
+     height: 40px;
+     border-radius: 50%;
+}
+/* focus-section */
+.focus-section{
+    margin-top: 138px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.10);
+    height: 700px;
+    text-align: center;
+    margin: 100px;
+    
+}
+.focus-content{
+    text-align: center;
+
+
+}
+.focus-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 70px;
+}
+.focus-content p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.focus-content img{
+  border-radius: 48px;
+  margin-top: 10px;
 }
