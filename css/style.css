@@ -1,10 +1,8 @@
 
- .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;          
-  font-style: normal;                 
-}
 
+body{
+    font-family: "Raleway" , sans-serif;
+} 
 /* shared style */
 .btn-primary{
     background-color: rgba(78, 71, 255, 1);
@@ -43,12 +41,15 @@ nav{
 }
 .banner-item{
     text-align: center;
-    padding: 100px 200px;
+    padding: 50px 400px;
 }
 .banner-title{
     font-size:65px ;
     font-weight: bold;
     color:rgba(37, 36, 50, 1) ;
+}
+.nav-btn{
+    text-align: center;
 }
 /* action style */
 .action-section{
@@ -186,7 +187,10 @@ nav{
     font-size: 97px;
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
-    padding-left: 50px;
+    padding:0 250px;
+}
+.contact-form{
+    padding-right: 150px;
 }
 .form-group {
   display: flex;
@@ -223,6 +227,16 @@ label{
     margin-top: 10px;
     cursor: pointer;
 }
+.contact-form input::placeholder{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Inter', sans-serif;
+}
+textarea::placeholder{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Inter', sans-serif;
+}
 /* the end */
 .select-logo{
     text-align: center;
@@ -235,13 +249,14 @@ label{
 }
 .text-primery{
     color: rgba(137, 135, 161, 1);
+    padding: 0 700px;
 }
 .select-logo ul li{
     list-style: none;
 }
 .select-logo ul{
     display: flex;
-    padding:0 600px;
+    padding:0 650px;
     justify-content: space-around;
 
 }
