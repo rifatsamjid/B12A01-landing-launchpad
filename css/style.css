@@ -12,6 +12,7 @@ body{
     font-weight: bold;
     padding: 12px 36px;
     cursor: pointer;
+    border: none;
 }
 .btn-primary:hover{
     background-color: chocolate;
@@ -204,17 +205,26 @@ footer input[type="email"] , [type="text"] {
     width: 500px;
     padding: 10px 20px;
     margin-bottom: 24px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.10);
     
 }
 footer textarea {
     display: block;
     height: 100px;
     width: 540px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.10);
 }
+
 label{
     font-size: 18px;
     color: rgba(0, 0, 0, 1);
     font-weight: 500;
+    margin-bottom: 10px;
 }
 .contact-butn{
     font-size:16px ;
@@ -226,6 +236,7 @@ label{
     width: 550px;
     margin-top: 10px;
     cursor: pointer;
+    border: none;
 }
 .contact-form input::placeholder{
     font-size: 20px;
@@ -236,6 +247,7 @@ textarea::placeholder{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     font-family: 'Inter', sans-serif;
+    padding: 15px 10px;
 }
 /* the end */
 .select-logo{
