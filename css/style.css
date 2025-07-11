@@ -15,7 +15,15 @@
     font-size: 16px;
     font-weight: bold;
     padding: 12px 36px;
+    cursor: pointer;
 }
+.btn-primary:hover{
+    background-color: chocolate;
+}
+.contact-butn:hover{
+    background-color: chocolate;
+}
+
 /* banner style */
 .banner-head{
          background-image: url('../Assets/Hero-bg.png');
@@ -29,10 +37,11 @@ nav{
     align-items: center;
     padding: 0 150px;
 }
-.nav-title{
+.nav-title a{
     color: rgba(78, 71, 255, 1);
     font-size: 34px;
     font-weight: 900;
+    text-decoration: none1;
 }
 .banner-item{
     text-align: center;
@@ -213,6 +222,7 @@ label{
     height: 50px;
     width: 550px;
     margin-top: 10px;
+    cursor: pointer;
 }
 /* the end */
 .select-logo{
